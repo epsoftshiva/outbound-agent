@@ -7,14 +7,4 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libffi-dev
 
-# Set the working directory
-WORKDIR /app
 
-# Copy the app code into the container
-COPY . /app
-
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Command to run the Streamlit app
-CMD ["streamlit", "run", "streamlit_app.py"]
