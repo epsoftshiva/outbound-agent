@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # Sidebar Logo and Title
-st.sidebar.image("Images/Untitled-1.jpg", use_column_width=True)  # Replace 'logo.png' with the path to your logo file
+st.sidebar.image("images/ep-logo.png.svg", use_column_width=True)  # Replace 'logo.png' with the path to your logo file
 st.sidebar.title("ISATE")
 
 # Sidebar Dropdowns
